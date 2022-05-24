@@ -18,7 +18,7 @@ function Question({
   return (
     <Flex sx={{ flexDirection: 'column', width: 1 }}>
       <Flex sx={{ mb: 4 }}>
-        <Typography variant="h2" sx={{ fontWeight: 'bold' }}>
+        <Typography variant="h1" sx={{ fontWeight: 'bold' }}>
           {selectedWordPair.spanish}
         </Typography>
       </Flex>
