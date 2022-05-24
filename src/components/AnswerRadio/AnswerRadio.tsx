@@ -1,6 +1,5 @@
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Radio from '@mui/material/Radio';
-import { useTheme } from '@mui/material';
 import { useMemo } from 'react';
 
 import type { Props } from './AnswerRadio.types';
@@ -21,8 +20,6 @@ function AnswerRadio({ answer, disabled, error, onChange, selected, success }: P
 
     return 'primary.50';
   }, [error, selected, success]);
-
-  console.log(useTheme());
 
   return (
     <FormControlLabel
