@@ -17,9 +17,7 @@ function useAnswers(correctAnswer: WordPair | null) {
       return wordPairs[randomIndex];
     });
 
-    randomAnswers.push(correctAnswer);
-
-    return randomAnswers
+    return [...randomAnswers, correctAnswer]
       .map((value) => ({ value, sort: Math.random() }))
       .sort((a, b) => a.sort - b.sort)
       .map(({ value }) => value);
