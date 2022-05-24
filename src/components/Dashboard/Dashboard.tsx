@@ -4,7 +4,7 @@ import { Flex } from 'design';
 
 function Dashboard() {
   return (
-    <Flex sx={{ flexDirection: 'column', padding: 6 }}>
+    <Flex sx={{ flexDirection: 'column', px: 6, py: 2 }}>
       <QuestionCount />
       <Question />
     </Flex>

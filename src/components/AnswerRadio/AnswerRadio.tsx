@@ -41,7 +41,8 @@ function AnswerRadio({ answer, disabled, error, onChange, selected, success }: P
         display: 'flex',
         margin: 0,
         p: 6,
-        mb: 6,
+        py: 4,
+        mb: 4,
 
         '& .MuiFormControlLabel-label, & .Mui-disabled.MuiFormControlLabel-label': {
           color: selected ? 'background.paper' : 'text.primary',
