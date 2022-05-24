@@ -45,7 +45,7 @@ function Question({
         </FormControl>
       </Flex>
 
-      <Flex sx={{ width: 1 }}>
+      <Flex sx={{ mt: 2, width: 1 }}>
         {!revealAnswer && (
           <Button disabled={selectedAnswer === null} fullWidth onClick={onSubmit}>
             Submit
