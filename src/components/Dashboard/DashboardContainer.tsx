@@ -3,7 +3,7 @@ import { useWordsStore } from 'stores/useWordsStore';
 import Dashboard from './Dashboard';
 
 function DashboardContainer() {
-  const { selectedWordPair, generateSelectedWordPair } = useWordsStore();
+  const { generateSelectedWordPair } = useWordsStore();
 
   useEffect(() => {
     generateSelectedWordPair();
