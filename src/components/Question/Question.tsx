@@ -17,8 +17,8 @@ function Question({
 }: Props) {
   return (
     <Flex sx={{ flexDirection: 'column', width: 1 }}>
-      <Flex sx={{ mb: 6 }}>
-        <Typography variant="h1" sx={{ fontWeight: 'bold' }}>
+      <Flex sx={{ mb: 4 }}>
+        <Typography variant="h2" sx={{ fontWeight: 'bold' }}>
           {selectedWordPair.spanish}
         </Typography>
       </Flex>

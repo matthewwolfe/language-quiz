@@ -40,9 +40,9 @@ function AnswerRadio({ answer, disabled, error, onChange, selected, success }: P
         borderRadius: 4,
         display: 'flex',
         margin: 0,
-        p: 6,
-        py: 4,
-        mb: 4,
+        p: 4,
+        py: 3,
+        mb: 3,
 
         '& .MuiFormControlLabel-label, & .Mui-disabled.MuiFormControlLabel-label': {
           color: selected ? 'background.paper' : 'text.primary',
