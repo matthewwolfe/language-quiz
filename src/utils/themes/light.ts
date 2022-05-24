@@ -1,8 +1,11 @@
 import { createTheme, responsiveFontSizes } from '@mui/material/styles';
+import { amber, deepPurple } from '@mui/material/colors';
 
 const theme = responsiveFontSizes(
   createTheme({
     palette: {
+      primary: deepPurple,
+      secondary: amber,
       background: {
         default: '#f8f8f8',
       },
