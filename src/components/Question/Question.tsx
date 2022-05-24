@@ -1,7 +1,6 @@
 import FormControl from '@mui/material/FormControl';
 import RadioGroup from '@mui/material/RadioGroup';
 import Typography from '@mui/material/Typography';
-
 import { AnswerRadio } from 'components/AnswerRadio';
 import { Button, Flex } from 'design';
 
