@@ -1,11 +1,7 @@
-import Typography from '@mui/material/Typography';
+import { Dashboard } from 'components/Dashboard';
 
 function Phrases() {
-  return (
-    <Typography variant="h4" sx={{ fontWeight: 'bold' }}>
-      Coming Soon
-    </Typography>
-  );
+  return <Dashboard />;
 }
 
 export default Phrases;

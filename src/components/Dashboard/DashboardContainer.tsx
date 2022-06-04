@@ -1,13 +1,13 @@
 import { useEffect } from 'react';
-import { useWordsStore } from 'stores/useWordsStore';
+import { useAppStore } from 'stores/useAppStore';
 import Dashboard from './Dashboard';
 
 function DashboardContainer() {
-  const { generateSelectedWordPair } = useWordsStore();
+  const { generateSelectedPair } = useAppStore();
 
   useEffect(() => {
-    generateSelectedWordPair();
-  }, [generateSelectedWordPair]);
+    generateSelectedPair();
+  }, [generateSelectedPair]);
 
   return <Dashboard />;
 }

@@ -1,13 +1,13 @@
 import { useCallback, useState } from 'react';
 import { useAnswers } from 'hooks/useAnswers';
-import { useWordsStore } from 'stores/useWordsStore';
+import { useAppStore } from 'stores/useAppStore';
 import Question from './Question';
 
 import type { Pair } from 'types/app.types';
 
 function QuestionContainer() {
-  const { selectedWordPair, generateSelectedWordPair } = useWordsStore();
-  const { answers } = useAnswers(selectedWordPair);
+  const { selectedPair, generateSelectedPair } = useAppStore();
+  const { answers } = useAnswers(selectedPair);
 
   const [selectedAnswer, setSelectedAnswer] = useState<Pair | null>(null);
   const [revealAnswer, setRevealAnswer] = useState<boolean>(false);
@@ -16,14 +16,14 @@ function QuestionContainer() {
     setRevealAnswer(false);
     setSelectedAnswer(null);
 
-    generateSelectedWordPair();
-  }, [generateSelectedWordPair]);
+    generateSelectedPair();
+  }, [generateSelectedPair]);
 
   const handleSubmit = useCallback(() => {
     setRevealAnswer(true);
   }, []);
 
-  if (!selectedWordPair) {
+  if (!selectedPair) {
     return null;
   }
 
@@ -34,7 +34,7 @@ function QuestionContainer() {
       onSubmit={handleSubmit}
       revealAnswer={revealAnswer}
       selectedAnswer={selectedAnswer}
-      selectedWordPair={selectedWordPair}
+      selectedPair={selectedPair}
       setSelectedAnswer={setSelectedAnswer}
     />
   );

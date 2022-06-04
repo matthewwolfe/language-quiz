@@ -8,7 +8,7 @@ export interface Props extends SharedProps {
   onSubmit: () => void;
   revealAnswer: boolean;
   selectedAnswer: Pair | null;
-  selectedWordPair: Pair;
+  selectedPair: Pair;
   setSelectedAnswer: (answer: Pair) => void;
 }
 

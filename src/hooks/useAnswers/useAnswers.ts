@@ -1,11 +1,11 @@
 import { useMemo } from 'react';
-import { useWordsStore } from 'stores/useWordsStore';
+import { useAppStore } from 'stores/useAppStore';
 import { randomFromRange } from 'utils/randomFromRange';
 
 import type { Pair } from 'types/app.types';
 
 function useAnswers(correctAnswer: Pair | null) {
-  const { wordPairs } = useWordsStore();
+  const { pairs } = useAppStore();
 
   const answers = useMemo(() => {
     if (!correctAnswer) {
@@ -13,15 +13,15 @@ function useAnswers(correctAnswer: Pair | null) {
     }
 
     const randomAnswers = Array.from(Array(3)).map(() => {
-      const randomIndex = randomFromRange(1, wordPairs.length);
-      return wordPairs[randomIndex];
+      const randomIndex = randomFromRange(1, pairs.length);
+      return pairs[randomIndex];
     });
 
     return [...randomAnswers, correctAnswer]
       .map((value) => ({ value, sort: Math.random() }))
       .sort((a, b) => a.sort - b.sort)
       .map(({ value }) => value);
-  }, [correctAnswer, wordPairs]);
+  }, [correctAnswer, pairs]);
 
   return {
     answers,

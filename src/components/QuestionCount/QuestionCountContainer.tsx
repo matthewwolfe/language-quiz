@@ -1,8 +1,8 @@
-import { useWordsStore } from 'stores/useWordsStore';
+import { useAppStore } from 'stores/useAppStore';
 import QuestionCount from './QuestionCount';
 
 function QuestionCountContainer() {
-  const { questionCount } = useWordsStore();
+  const { questionCount } = useAppStore();
 
   return <QuestionCount questionCount={questionCount} />;
 }

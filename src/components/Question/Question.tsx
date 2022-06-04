@@ -12,14 +12,14 @@ function Question({
   onSubmit,
   revealAnswer,
   selectedAnswer,
-  selectedWordPair,
+  selectedPair,
   setSelectedAnswer,
 }: Props) {
   return (
     <Flex sx={{ flexDirection: 'column', width: 1 }}>
       <Flex sx={{ mb: 4 }}>
         <Typography variant="h1" sx={{ fontWeight: 'bold' }}>
-          {selectedWordPair.spanish}
+          {selectedPair.spanish}
         </Typography>
       </Flex>
 
@@ -33,11 +33,11 @@ function Question({
                 <AnswerRadio
                   answer={answer}
                   disabled={revealAnswer}
-                  error={revealAnswer && selectedAnswer !== selectedWordPair && selected}
+                  error={revealAnswer && selectedAnswer !== selectedPair && selected}
                   key={answer.number}
                   onChange={() => setSelectedAnswer(answer)}
                   selected={selected}
-                  success={revealAnswer && selectedWordPair === answer}
+                  success={revealAnswer && selectedPair === answer}
                 />
               );
             })}
