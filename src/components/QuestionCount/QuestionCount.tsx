@@ -5,7 +5,7 @@ import { Props } from './QuestionCount.types';
 
 function QuestionCount({ questionCount }: Props) {
   return (
-    <Flex sx={{ mb: 2 }}>
+    <Flex>
       <Typography variant="h4" sx={{ color: 'secondary.main' }}>
         Question {questionCount}
       </Typography>
