@@ -1,5 +1,4 @@
 import create from 'zustand';
-import wordsJson from 'data/words.json';
 
 import type { Pair } from 'types/app.types';
 
@@ -8,10 +7,11 @@ interface AppStore {
   questionCount: number;
   selectedPair: Pair | null;
   generateSelectedPair: () => void;
+  setPairs: (pairs: Array<Pair>) => void;
 }
 
 const useAppStore = create<AppStore>()((set) => ({
-  pairs: wordsJson,
+  pairs: [],
   questionCount: 0,
   selectedPair: null,
   generateSelectedPair: () =>
@@ -19,6 +19,7 @@ const useAppStore = create<AppStore>()((set) => ({
       questionCount: questionCount + 1,
       selectedPair: pairs[Math.floor(Math.random() * pairs.length)],
     })),
+  setPairs: (pairs) => set({ questionCount: 0, pairs }),
 }));
 
 export default useAppStore;

@@ -3,11 +3,13 @@ import { useAppStore } from 'stores/useAppStore';
 import Dashboard from './Dashboard';
 
 function DashboardContainer() {
-  const { generateSelectedPair } = useAppStore();
+  const { generateSelectedPair, pairs } = useAppStore();
 
   useEffect(() => {
-    generateSelectedPair();
-  }, [generateSelectedPair]);
+    if (pairs.length) {
+      generateSelectedPair();
+    }
+  }, [generateSelectedPair, pairs]);
 
   return <Dashboard />;
 }
