@@ -2,9 +2,9 @@ import { useMemo } from 'react';
 import { useWordsStore } from 'stores/useWordsStore';
 import { randomFromRange } from 'utils/randomFromRange';
 
-import type { WordPair } from 'types/words.types';
+import type { Pair } from 'types/app.types';
 
-function useAnswers(correctAnswer: WordPair | null) {
+function useAnswers(correctAnswer: Pair | null) {
   const { wordPairs } = useWordsStore();
 
   const answers = useMemo(() => {

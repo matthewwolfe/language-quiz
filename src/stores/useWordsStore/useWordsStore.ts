@@ -1,12 +1,12 @@
 import create from 'zustand';
 import wordsJson from 'data/words.json';
 
-import type { WordPair } from 'types/words.types';
+import type { Pair } from 'types/app.types';
 
 interface WordsStore {
-  wordPairs: Array<WordPair>;
+  wordPairs: Array<Pair>;
   questionCount: number;
-  selectedWordPair: WordPair | null;
+  selectedWordPair: Pair | null;
   generateSelectedWordPair: () => void;
 }
 

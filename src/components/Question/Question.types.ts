@@ -1,15 +1,15 @@
-import type { WordPair } from 'types/words.types';
+import type { Pair } from 'types/app.types';
 
 export interface ContainerProps extends SharedProps {}
 
 export interface Props extends SharedProps {
-  answers: Array<WordPair>;
+  answers: Array<Pair>;
   onNext: () => void;
   onSubmit: () => void;
   revealAnswer: boolean;
-  selectedAnswer: WordPair | null;
-  selectedWordPair: WordPair;
-  setSelectedAnswer: (answer: WordPair) => void;
+  selectedAnswer: Pair | null;
+  selectedWordPair: Pair;
+  setSelectedAnswer: (answer: Pair) => void;
 }
 
 interface SharedProps {}

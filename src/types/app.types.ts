@@ -1,4 +1,4 @@
-export interface WordPair {
+export interface Pair {
   number: number;
   english: string;
   spanish: string;

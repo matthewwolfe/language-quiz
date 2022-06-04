@@ -3,13 +3,13 @@ import { useAnswers } from 'hooks/useAnswers';
 import { useWordsStore } from 'stores/useWordsStore';
 import Question from './Question';
 
-import type { WordPair } from 'types/words.types';
+import type { Pair } from 'types/app.types';
 
 function QuestionContainer() {
   const { selectedWordPair, generateSelectedWordPair } = useWordsStore();
   const { answers } = useAnswers(selectedWordPair);
 
-  const [selectedAnswer, setSelectedAnswer] = useState<WordPair | null>(null);
+  const [selectedAnswer, setSelectedAnswer] = useState<Pair | null>(null);
   const [revealAnswer, setRevealAnswer] = useState<boolean>(false);
 
   const handleNext = useCallback(() => {

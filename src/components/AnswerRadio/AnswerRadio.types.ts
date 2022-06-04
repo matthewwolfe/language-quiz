@@ -1,7 +1,7 @@
-import type { WordPair } from 'types/words.types';
+import type { Pair } from 'types/app.types';
 
 export interface Props {
-  answer: WordPair;
+  answer: Pair;
   disabled: boolean;
   error: boolean;
   onChange: () => void;
