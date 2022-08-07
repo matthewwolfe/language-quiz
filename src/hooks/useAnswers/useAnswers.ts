@@ -12,10 +12,12 @@ function useAnswers(correctAnswer: Pair | null) {
       return [];
     }
 
-    const randomAnswers = Array.from(Array(3)).map(() => {
-      const randomIndex = randomFromRange(1, pairs.length);
-      return pairs[randomIndex];
-    });
+    const randomAnswers = randomFromRange({
+      min: 1,
+      max: pairs.length,
+      omit: [pairs.findIndex((pair) => pair === correctAnswer)],
+      size: 3,
+    }).map((index) => pairs[index]);
 
     return [...randomAnswers, correctAnswer]
       .map((value) => ({ value, sort: Math.random() }))
