@@ -7,12 +7,12 @@
   {
     "number": 2,
     "spanish": "¿Qué pasa?",
-    "english": "What’s up?"
+    "english": "What's up?"
   },
   {
     "number": 3,
     "spanish": "¿Cómo te va?",
-    "english": "How’re you doing?"
+    "english": "How're you doing?"
   },
   {
     "number": 4,
@@ -42,7 +42,7 @@
   {
     "number": 9,
     "spanish": "¿Cómo te llamas?",
-    "english": "What’s your name?"
+    "english": "What's your name?"
   },
   {
     "number": 10,
@@ -67,7 +67,7 @@
   {
     "number": 14,
     "spanish": "De nada",
-    "english": "You’re welcome"
+    "english": "You're welcome"
   },
   {
     "number": 15,
@@ -82,7 +82,7 @@
   {
     "number": 17,
     "spanish": "Lo siento",
-    "english": "I’m sorry"
+    "english": "I'm sorry"
   },
   {
     "number": 18,
@@ -112,7 +112,7 @@
   {
     "number": 23,
     "spanish": "No me gusta",
-    "english": "I don’t like"
+    "english": "I don't like"
   },
   {
     "number": 24,
@@ -142,7 +142,7 @@
   {
     "number": 29,
     "spanish": "¿En qué trabajas?",
-    "english": "What’s your job?"
+    "english": "What's your job?"
   },
   {
     "number": 30,
@@ -162,7 +162,7 @@
   {
     "number": 33,
     "spanish": "¿Dónde está el baño?",
-    "english": "Where’s the bathroom?"
+    "english": "Where's the bathroom?"
   },
   {
     "number": 34,
@@ -269,7 +269,7 @@
   {
     "number": 56,
     "spanish": "Me voy a casa",
-    "english": "I’m going home"
+    "english": "I'm going home"
   },
   {
     "number": 57,
@@ -284,7 +284,7 @@
   {
     "number": 59,
     "spanish": "No lo sé",
-    "english": "I don´t know"
+    "english": "I don't know"
   },
   {
     "number": 60,
@@ -299,6 +299,6 @@
   {
     "number": 62,
     "spanish": "No entiendo",
-    "english": "I don’t understand"
+    "english": "I don't understand"
   }
 ]
