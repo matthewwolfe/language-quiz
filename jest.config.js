@@ -1,12 +1,7 @@
 module.exports = {
-  globals: {
-    'ts-jest': {
-      tsconfig: 'tsconfig.test.json',
-    },
-  },
-  moduleDirectories: ['node_modules', 'src', 'shared'],
+  moduleDirectories: ['node_modules', 'src'],
   preset: 'ts-jest',
-  roots: ['src', 'shared'],
+  roots: ['src'],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   testEnvironment: 'jsdom',
 };
