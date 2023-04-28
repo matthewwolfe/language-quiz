@@ -1,6 +1,8 @@
-const debug = process.env.NODE_ENV !== 'production';
+const isProd = process.env.NODE_ENV === 'production';
 
 module.exports = {
-  assetPrefix: !debug ? '/language-quiz/' : '',
-  basePath: !debug ? '/language-quiz' : '',
+  assetPrefix: isProd ? '/language-quiz/' : '',
+  basePath: isProd ? '/language-quiz' : '',
+  distDir: 'docs',
+  output: 'export',
 };
