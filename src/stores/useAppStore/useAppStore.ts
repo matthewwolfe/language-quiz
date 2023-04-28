@@ -3,11 +3,11 @@ import { create } from 'zustand';
 import type { Pair } from 'types/app.types';
 
 interface AppStore {
-  pairs: Array<Pair>;
+  pairs: Pair[];
   questionCount: number;
   selectedPair: Pair | null;
   generateSelectedPair: () => void;
-  setPairs: (pairs: Array<Pair>) => void;
+  setPairs: (pairs: Pair[]) => void;
 }
 
 const useAppStore = create<AppStore>()((set) => ({

@@ -1,303 +1,243 @@
 [
   {
-    "number": 1,
     "spanish": "¿Qué tal?",
     "english": "How are you?"
   },
   {
-    "number": 2,
     "spanish": "¿Qué pasa?",
     "english": "What's up?"
   },
   {
-    "number": 3,
     "spanish": "¿Cómo te va?",
     "english": "How're you doing?"
   },
   {
-    "number": 4,
     "spanish": "Muy bien",
     "english": "Very good"
   },
   {
-    "number": 5,
     "spanish": "Así así",
     "english": "So-so"
   },
   {
-    "number": 6,
     "spanish": "No tan bien",
     "english": "Not so good"
   },
   {
-    "number": 7,
     "spanish": "¿Y tú?",
     "english": "And you?"
   },
   {
-    "number": 8,
     "spanish": "Me llamo",
     "english": "My name is"
   },
   {
-    "number": 9,
     "spanish": "¿Cómo te llamas?",
     "english": "What's your name?"
   },
   {
-    "number": 10,
     "spanish": "Mucho gusto",
     "english": "Nice to meet you"
   },
   {
-    "number": 11,
     "spanish": "Nos vemos mañana",
     "english": "See you tomorrow"
   },
   {
-    "number": 12,
     "spanish": "Hasta luego",
     "english": "See you later"
   },
   {
-    "number": 13,
     "spanish": "Hasta pronto amigo",
     "english": "See you soon, friend"
   },
   {
-    "number": 14,
     "spanish": "De nada",
     "english": "You're welcome"
   },
   {
-    "number": 15,
     "spanish": "No problemo",
     "english": "No problem"
   },
   {
-    "number": 16,
     "spanish": "Disculpe",
     "english": "Excuse me"
   },
   {
-    "number": 17,
     "spanish": "Lo siento",
     "english": "I'm sorry"
   },
   {
-    "number": 18,
     "spanish": "¿Qué te gusta hacer?",
     "english": "What do you like to do?"
   },
   {
-    "number": 19,
     "spanish": "Mi pasatiempo favorito es",
     "english": "My favourite pastime is"
   },
   {
-    "number": 20,
     "spanish": "¿Cuáles son tus pasatiempos?",
     "english": "What are your hobbies?"
   },
   {
-    "number": 21,
     "spanish": "¿Qué haces en tu tiempo libre?",
     "english": "What do you do in your free time?"
   },
   {
-    "number": 22,
     "spanish": "Me gusta",
     "english": "I like"
   },
   {
-    "number": 23,
     "spanish": "No me gusta",
     "english": "I don't like"
   },
   {
-    "number": 24,
     "spanish": "Me encanta",
     "english": "I love"
   },
   {
-    "number": 25,
     "spanish": "¿Qué te gusta leer?",
     "english": "Do you like to read?"
   },
   {
-    "number": 26,
     "spanish": "¿Que música te gusta?",
     "english": "What music do you like?"
   },
   {
-    "number": 27,
     "spanish": "Mi favorito es",
     "english": "My favourite is"
   },
   {
-    "number": 28,
     "spanish": "Me gusta ir",
     "english": "I like going to"
   },
   {
-    "number": 29,
     "spanish": "¿En qué trabajas?",
     "english": "What's your job?"
   },
   {
-    "number": 30,
     "spanish": "¿Te gusta tu trabajo?",
     "english": "Do you like your job?"
   },
   {
-    "number": 31,
     "spanish": "Trabajo en",
     "english": "I work at"
   },
   {
-    "number": 32,
     "spanish": "¿Cuánto cuesta?",
     "english": "How much is this?"
   },
   {
-    "number": 33,
     "spanish": "¿Dónde está el baño?",
     "english": "Where's the bathroom?"
   },
   {
-    "number": 34,
     "spanish": "¿Qué hora es?",
     "english": "What time is it?"
   },
   {
-    "number": 35,
     "spanish": "¿Pasa algo?",
     "english": "Is something wrong?"
   },
   {
-    "number": 36,
     "spanish": "¿Es esto correcto?",
     "english": "Is this right?"
   },
   {
-    "number": 37,
     "spanish": "¿Me equivocado?",
     "english": "Was I wrong?"
   },
   {
-    "number": 38,
     "spanish": "¿Me puede ayudar con esto?",
     "english": "Can you help me with this?"
   },
   {
-    "number": 39,
     "spanish": "¿Puedes traerme … por favor?",
     "english": "Can you bring me … please?"
   },
-  { "number": 40, "spanish": "¿Puedo entrar?", "english": "Can I come in?" },
-  { "number": 41, "spanish": "¿Quieres tomar una copa?", "english": "Want to grab a drink?" },
+  { "spanish": "¿Puedo entrar?", "english": "Can I come in?" },
+  { "spanish": "¿Quieres tomar una copa?", "english": "Want to grab a drink?" },
   {
-    "number": 42,
     "spanish": "¿A dónde deberíamos ir a comer?",
     "english": "Where should we go to eat?"
   },
   {
-    "number": 43,
     "spanish": "¿Estás listo?",
     "english": "Are you ready?"
   },
   {
-    "number": 44,
     "spanish": "¡Cuánto tiempo sin verlo(a)!",
     "english": "Long time no see!"
   },
   {
-    "number": 45,
     "spanish": "¡Feliz cumpleaños!",
     "english": "Happy birthday!"
   },
   {
-    "number": 46,
     "spanish": "¡Buena suerte!",
     "english": "Good luck!"
   },
   {
-    "number": 47,
     "spanish": "¡Alto!",
     "english": "Stop!"
   },
   {
-    "number": 48,
     "spanish": "¡Salud!",
     "english": "Cheers!"
   },
   {
-    "number": 49,
     "spanish": "Que te mejores",
     "english": "Get well soon"
   },
   {
-    "number": 50,
     "spanish": "Buen provecho",
     "english": "Bon appetit"
   },
   {
-    "number": 51,
     "spanish": "Felicitaciones",
     "english": "Congratulations"
   },
   {
-    "number": 52,
     "spanish": "¡Bien hecho!",
     "english": "Well done!"
   },
   {
-    "number": 53,
     "spanish": "¿De verdad?",
     "english": "Really?"
   },
   {
-    "number": 54,
     "spanish": "Necesito ayuda",
     "english": "I need help"
   },
   {
-    "number": 55,
     "spanish": "Llámame cuando llegues",
     "english": "Call me when you arrive"
   },
   {
-    "number": 56,
     "spanish": "Me voy a casa",
     "english": "I'm going home"
   },
   {
-    "number": 57,
     "spanish": "Necesito ir a",
     "english": "I need to go to"
   },
   {
-    "number": 58,
     "spanish": "¿Como llego hasta ahí?",
     "english": "How do I get there?"
   },
   {
-    "number": 59,
     "spanish": "No lo sé",
     "english": "I don't know"
   },
   {
-    "number": 60,
     "spanish": "No tengo idea",
     "english": "I have no idea"
   },
   {
-    "number": 61,
     "spanish": "¿Lo entiendes?",
     "english": "Do you understand?"
   },
   {
-    "number": 62,
     "spanish": "No entiendo",
     "english": "I don't understand"
   }

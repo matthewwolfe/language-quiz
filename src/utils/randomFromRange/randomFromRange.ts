@@ -7,7 +7,6 @@ interface Options {
 }
 
 function randomFromRange({ max, min, omit = [], size }: Options): number[] {
-  console.log(omit);
   const array: number[] = [];
 
   for (let i = 0; i < size; i++) {

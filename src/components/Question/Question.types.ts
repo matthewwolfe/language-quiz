@@ -3,7 +3,7 @@ import type { Pair } from 'types/app.types';
 export interface ContainerProps extends SharedProps {}
 
 export interface Props extends SharedProps {
-  answers: Array<Pair>;
+  answers: Pair[];
   onNext: () => void;
   onSubmit: () => void;
   revealAnswer: boolean;

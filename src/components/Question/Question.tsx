@@ -26,7 +26,7 @@ function Question({
       <Flex sx={{ width: 1 }}>
         <FormControl sx={{ width: 1 }}>
           <RadioGroup sx={{ width: 1 }}>
-            {answers.map((answer) => {
+            {answers.map((answer, index) => {
               const selected = selectedAnswer === answer;
 
               return (
@@ -34,7 +34,7 @@ function Question({
                   answer={answer}
                   disabled={revealAnswer}
                   error={revealAnswer && selectedAnswer !== selectedPair && selected}
-                  key={answer.number}
+                  key={index}
                   onChange={() => setSelectedAnswer(answer)}
                   selected={selected}
                   success={revealAnswer && selectedPair === answer}
