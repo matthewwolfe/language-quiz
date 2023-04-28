@@ -408,6 +408,10 @@
     "english": "new"
   },
   {
+    "spanish": "tomate",
+    "english": "tomato"
+  },
+  {
     "spanish": "trabajo",
     "english": "work"
   },
@@ -469,7 +473,7 @@
   },
   {
     "spanish": "vino",
-    "english": "came"
+    "english": "wine"
   },
   {
     "spanish": "show",
@@ -1028,6 +1032,14 @@
     "english": "friend"
   },
   {
+    "spanish": "amiga",
+    "english": "friend"
+  },
+  {
+    "spanish": "amistad",
+    "english": "friendship"
+  },
+  {
     "spanish": "comenzó",
     "english": "began"
   },
@@ -1184,7 +1196,7 @@
     "english": "river"
   },
   {
-    "spanish": "coche",
+    "spanish": "carro",
     "english": "car"
   },
   {
@@ -1286,6 +1298,26 @@
   {
     "spanish": "canción",
     "english": "song"
+  },
+  {
+    "spanish": "conversación",
+    "english": "conversation"
+  },
+  {
+    "spanish": "invitación",
+    "english": "invitation"
+  },
+  {
+    "spanish": "lección",
+    "english": "lesson"
+  },
+  {
+    "spanish": "ilusión",
+    "english": "lesson"
+  },
+  {
+    "spanish": "televisión",
+    "english": "television"
   },
   {
     "spanish": "medir",
@@ -1434,6 +1466,10 @@
   {
     "spanish": "azul",
     "english": "blue"
+  },
+  {
+    "spanish": "blusa",
+    "english": "blouse"
   },
   {
     "spanish": "objeto",
@@ -1816,8 +1852,8 @@
     "english": "better"
   },
   {
-    "spanish": "verdadero",
-    "english": "true"
+    "spanish": "verdad",
+    "english": "truth"
   },
   {
     "spanish": "durante",
@@ -2148,6 +2184,10 @@
     "english": "yet"
   },
   {
+    "spanish": "bolsa",
+    "english": "bag"
+  },
+  {
     "spanish": "ola",
     "english": "wave"
   },
@@ -2206,6 +2246,10 @@
   {
     "spanish": "bosque",
     "english": "forest"
+  },
+  {
+    "spanish": "actitud",
+    "english": "attitude"
   },
   {
     "spanish": "sentarse",
@@ -2441,7 +2485,7 @@
   },
   {
     "spanish": "problema",
-    "english": "trouble"
+    "english": "problem"
   },
   {
     "spanish": "grito",
@@ -2856,6 +2900,10 @@
     "english": "third"
   },
   {
+    "spanish": "cerveza",
+    "english": "beer"
+  },
+  {
     "spanish": "deberá",
     "english": "shall"
   },
@@ -2904,6 +2952,10 @@
     "english": "cat"
   },
   {
+    "spanish": "iglesia",
+    "english": "church"
+  },
+  {
     "spanish": "siglo",
     "english": "century"
   },
@@ -2950,6 +3002,10 @@
   {
     "spanish": "suelo",
     "english": "soil"
+  },
+  {
+    "spanish": "suerte",
+    "english": "luck"
   },
   {
     "spanish": "rollo",
@@ -3028,6 +3084,10 @@
     "english": "thick"
   },
   {
+    "spanish": "programa",
+    "english": "program"
+  },
+  {
     "spanish": "soldado",
     "english": "soldier"
   },
@@ -3052,7 +3112,7 @@
     "english": "difficult"
   },
   {
-    "spanish": "médico",
+    "spanish": "doctor",
     "english": "doctor"
   },
   {
@@ -3090,6 +3150,22 @@
   {
     "spanish": "esquina",
     "english": "corner"
+  },
+  {
+    "spanish": "artista",
+    "english": "artist"
+  },
+  {
+    "spanish": "dentista",
+    "english": "dentist"
+  },
+  {
+    "spanish": "pianista",
+    "english": "pianist"
+  },
+  {
+    "spanish": "taxista",
+    "english": "taxi driver"
   },
   {
     "spanish": "partido",
@@ -3132,7 +3208,7 @@
     "english": "indicate"
   },
   {
-    "spanish": "Radio",
+    "spanish": "radio",
     "english": "radio"
   },
   {
@@ -3246,6 +3322,10 @@
   {
     "spanish": "comparar",
     "english": "compare"
+  },
+  {
+    "spanish": "comida",
+    "english": "meal"
   },
   {
     "spanish": "poema",
@@ -3921,7 +4001,7 @@
   },
   {
     "spanish": "tienda",
-    "english": "shop"
+    "english": "store"
   },
   {
     "spanish": "tramo",
@@ -3996,7 +4076,59 @@
     "english": "claim"
   },
   {
+    "spanish": "lámpara",
+    "english": "lamp"
+  },
+  {
     "spanish": "continente",
     "english": "continent"
+  },
+  {
+    "spanish": "muchacho",
+    "english": "boy"
+  },
+  {
+    "spanish": "muchacha",
+    "english": "girl"
+  },
+  {
+    "spanish": "teléfono",
+    "english": "telephone"
+  },
+  {
+    "spanish": "café",
+    "english": "coffee"
+  },
+  {
+    "spanish": "foto",
+    "english": "photograph"
+  },
+  {
+    "spanish": "hospital",
+    "english": "hospital"
+  },
+  {
+    "spanish": "hotel",
+    "english": "hotel"
+  },
+  {
+    "spanish": "clima",
+    "english": "climate"
+  },
+  {
+    "spanish": "drama",
+    "english": "drama"
+  },
+  {
+    "spanish": "cantante",
+    "english": "singer"
+  },
+  {
+    "spanish": "gerente",
+    "english": "manager"
+  },
+  {
+    "spanish": "presidente",
+    "english": "president"
   }
 ]
