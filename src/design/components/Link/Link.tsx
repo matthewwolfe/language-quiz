@@ -9,7 +9,7 @@ interface Props extends LinkProps {
 
 function Link({ children, ...props }: Props) {
   return (
-    <NextLink {...props} passHref>
+    <NextLink {...props} passHref legacyBehavior>
       <MuiLink sx={{ fontSize: 18, textDecoration: 'none' }}>{children}</MuiLink>
     </NextLink>
   );
